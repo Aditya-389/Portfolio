@@ -89,7 +89,7 @@ const Dock = () => {
                         </button>
                     </div>
                 ))
-            };
+            }
 
             <Tooltip 
                 id="dock-tooltip"
