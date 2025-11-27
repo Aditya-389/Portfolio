@@ -16,7 +16,7 @@ const renderText = (text, className, baseWeight = 400) => {
 }
 
 const setupTextHover = (container, type) => {
-    if(!container) return;
+    if(!container) return () => {}; // good practice to prevent runtime errors and avoid undefined behavior
 
     const letters = container.querySelectorAll('span');
 
