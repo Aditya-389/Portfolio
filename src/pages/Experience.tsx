@@ -14,14 +14,7 @@ const container: Variants = {
   },
 }
 
-const item: Variants = {
-  hidden: { opacity: 0, y: 34 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.75, ease: 'easeOut' },
-  },
-}
+
 
 export function Experience() {
   return (
