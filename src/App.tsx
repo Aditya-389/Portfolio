@@ -1,6 +1,7 @@
 import { AnimatedBackground } from './components/AnimatedBackground'
 import { Navbar } from './components/Navbar'
 import { About } from './pages/About'
+import { Contact } from './pages/Contact'
 import { Experience } from './pages/Experience'
 import { Highlights } from './pages/Highlights'
 import { Home } from './pages/Home'
@@ -16,6 +17,7 @@ function App() {
       <Experience />
       <Projects />
       <Highlights />
+      <Contact />
     </main>
   )
 }
