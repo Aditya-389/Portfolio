@@ -1,6 +1,7 @@
 import { AnimatedBackground } from './components/AnimatedBackground'
 import { Navbar } from './components/Navbar'
 import { About } from './pages/About'
+import { Experience } from './pages/Experience'
 import { Home } from './pages/Home'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Experience />
     </main>
   )
 }
