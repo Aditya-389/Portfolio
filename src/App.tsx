@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar'
 import { About } from './pages/About'
 import { Experience } from './pages/Experience'
 import { Home } from './pages/Home'
+import { Projects } from './pages/Projects'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <About />
       <Experience />
+      <Projects />
     </main>
   )
 }

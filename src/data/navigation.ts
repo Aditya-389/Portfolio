@@ -1,1 +1,1 @@
-export const navItems = ['Home', 'About', 'Profiles', 'Experience', 'Projects', 'Contact']
+export const navItems = ['Home', 'About','Experience', 'Projects', 'Highlights', 'Contact']
