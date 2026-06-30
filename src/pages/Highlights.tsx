@@ -97,7 +97,7 @@ export function Highlights() {
               />
               <div className="relative flex items-start gap-4">
                 <motion.div
-                  className="grid h-16 w-16 shrink-0 place-items-center rounded-[1rem] border border-[#171512]/10 bg-[#f2efe8]/80 text-[#b3843d] shadow-[0_16px_40px_rgba(23,21,18,0.08)]"
+                  className="grid h-16 w-16 shrink-0 place-items-center rounded-2xl border border-[#171512]/10 bg-[#f2efe8]/80 text-[#b3843d] shadow-[0_16px_40px_rgba(23,21,18,0.08)]"
                   animate={{ rotate: index === 1 ? [0, 4, 0] : [0, -4, 0] }}
                   transition={{ duration: 4 + index, repeat: Infinity, ease: 'easeInOut' }}
                 >
