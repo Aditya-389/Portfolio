@@ -32,7 +32,7 @@ export function Navbar() {
       </motion.nav>
 
       <motion.a
-        href="https://drive.google.com/file/d/1nsqo77UOOP7Uhe7EmwbZvZNcSKMBKEo6/view?usp=sharing"
+        href="https://drive.google.com/file/d/1BakzMQPcR6SbFDAUtfzHcoVWqP1oL0Ud/view?usp=drivesdk"
         target="_blank"   // opens in new tab
         rel="noopener noreferrer"
         className="hidden items-center gap-2 rounded-full border border-[#171512]/15 bg-[#171512] px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.18em] text-[#f2efe8] shadow-[0_16px_50px_rgba(23,21,18,0.18)] transition hover:-translate-y-0.5 hover:bg-[#4e7efc] sm:inline-flex"
