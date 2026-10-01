@@ -1,5 +1,5 @@
 import { motion, type Variants } from 'framer-motion'
-import { ArrowUpRight, BriefcaseBusiness, CalendarDays } from 'lucide-react'
+import { BriefcaseBusiness, CalendarDays } from 'lucide-react'
 
 import { experiences } from '../data/experience'
 
